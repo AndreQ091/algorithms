@@ -1,0 +1,15 @@
+{
+  "name": "rsa-el-gamal",
+  "version": "1.0.0",
+  "description": "Alghoritms",
+  "main": "index.js",
+  "scripts": {
+    "start_rsa": "node ./src/rsa.js",
+    "start_el_gamal": "node ./src/el-gamal.js"
+  },
+  "author": "javascriptizer",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.51"
+  }
+}
